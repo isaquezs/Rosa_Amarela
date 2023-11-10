@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Header elementos */
+
+#header{
+    height: 90px;
+    max-width: 100%;
+    background-color: #fce7e2;
+    font-size: 17px;
+    font-family: arial;
+}
+
+.espacamento-elementos-direita{
+    padding-left: 200px;
+    display: inline;
+}
+
+#espacamento_itens_menu {
+    padding-bottom: 30px;
+}
+
+#img_icone{
+    height: 55px; 
+    width: 48px;
+    display: overlay;
+}
+
+/* Carrosel bloco */
+
+#carrossel{
+    height: 500px;
+    background-color: gray;
+}
+
+/* Blocos informativos */
+
+#informativos{
+    height: 800px;
+    background-color: #fef4ea;
+}
