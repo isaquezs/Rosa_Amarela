@@ -13,19 +13,15 @@
     font-family: arial;
 }
 
-.espacamento-elementos-direita{
-    padding-left: 200px;
-    display: inline;
-}
-
-#espacamento_itens_menu {
-    padding-bottom: 30px;
+.espaco-elementos-header{
+    padding-left: 50px;
 }
 
 #img_icone{
-    height: 55px; 
-    width: 48px;
-    display: overlay;
+    height: 45px; 
+    width: 45px;
+    margin-top: 20px;
+    margin-left: 300px;
 }
 
 /* Carrosel bloco */
