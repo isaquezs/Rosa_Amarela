@@ -61,4 +61,7 @@ plano de fundo auxiliares */
     background-color: #fef4ea;
 }
 
+.container-info{
+    display: flex;
+}
 
