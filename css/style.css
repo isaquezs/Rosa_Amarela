@@ -38,18 +38,8 @@ html, body{
 
 /* Blocos informativos */
 
-
-.informativos{
-    height: 800px;
-    background-color: #fef4ea;
-}
-
-
-#informativo1{
-    height: 800px;
-    background-color: #fef4ea;
-}
-
+/* Regra geral para imagens no 
+plano de fundo auxiliares */
 
 .classe-img-bg{
     width: 95%;
@@ -57,3 +47,18 @@ html, body{
     background-position: center;
     background-repeat: no-repeat;
 }
+/* Regra geral para os blocos informativos */
+
+.informativos{
+    height: 800px;
+    background-color: #fef4ea;
+}
+
+/* Primeira div de bloco informativo  */
+
+#informativo1{
+    height: 800px;
+    background-color: #fef4ea;
+}
+
+
