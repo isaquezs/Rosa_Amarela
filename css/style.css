@@ -63,5 +63,10 @@ plano de fundo auxiliares */
 
 .container-info{
     display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: baseline;
+    margin-top: -20%
 }
 
