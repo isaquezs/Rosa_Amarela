@@ -189,11 +189,16 @@ plano de fundo auxiliares */
 
 /* estrutura para os conteudos escritos nos containers informativos */
 
+/* container 1 estrutura */
+
 #infos_container1{
     margin-right: 205px;
     width: 30%;
     font-size: 23px;
 }
+
+/* container 2 estrutura */
+
 
 #infos_container2{
     margin-right: 3%;
@@ -201,8 +206,14 @@ plano de fundo auxiliares */
     font-size: 23px;
 }
 
+
 /* ---------------- Fim - Blocos informativos ---------------- */
 
+
+
+
+
+/* ---------------- Botões ---------------- */
 
 /* estrutura botao saiba mais */
 
