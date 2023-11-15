@@ -183,8 +183,8 @@ plano de fundo auxiliares */
 
 #img_container2{
     border-radius: 22px;
-    width: 110%;
-    height: 140%;
+    width: 100%;
+    height: 130%;
 }
 
 /* estrutura para os conteudos escritos nos containers informativos */
