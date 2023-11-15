@@ -9,15 +9,59 @@
 <body>
     
     <div id="header">   
-        
-            <div>
-                    <img src="img/icone_rosamarela.png" id="img_icone"/>
-                    <span class="espaco-elementos-header" style="margin-left: 900px;">Quem Somos</span>
-                    <span class="espaco-elementos-header">Nossos Clientes</span>
-            </div>
+        <div>
+            <img src="img/icone_rosamarela.png" id="img_icone"/>
+            <span class="espaco-elementos-header" style="margin-left: 900px;">Quem Somos</span>
+            <span class="espaco-elementos-header">Nossos Clientes</span>
+        </div>
     </div>
 
-    <div id="carrossel" style="text-align: center; padding-top: 240px;">Carrossel de imagens</div>
+    <div class="slider">
+
+        <div class="slides">
+            <input type="radio" name="radio-btn" id="radio1">
+            <input type="radio" name="radio-btn" id="radio2">
+            <input type="radio" name="radio-btn" id="radio3">
+            <input type="radio" name="radio-btn" id="radio4">
+            <!--Fim radio-btn-->
+
+            <!--Slide images-->
+            <div class="slide first">
+                <img src="img/carrossel/1.jpg" alt="Imagem 1" srcset="">
+            </div>
+            <div class="slide">
+                <img src="img/carrossel/2.jpeg" alt="Imagem 2" srcset="">
+            </div>
+            <div class="slide">
+                <img src="img/carrossel/3.jpeg" alt="Imagem 3" srcset="">
+            </div>
+            <div class="slide">
+                <img src="img/carrossel/4.jpeg" alt="Imagem 4" srcset="">
+            </div>
+            <!--Slide images-->
+
+            <!--Navigation auto (bolinhas para passar de slide)-->
+            <div class="navigation-auto">
+                <div class="auto-btn1"></div>
+                <div class="auto-btn2"></div>
+                <div class="auto-btn3"></div>
+                <div class="auto-btn4"></div>
+            </div> <!--Fmi navigation-auto-->
+        </div> <!--Fim slides-->
+
+        <div class="manual-navigation">
+            <label for="radio1" class="manual-btn"></label>
+            <label for="radio2" class="manual-btn"></label>
+            <label for="radio3" class="manual-btn"></label>
+            <label for="radio4" class="manual-btn"></label>
+        </div>
+
+    </div> <!--slider-->
+
+    <div class="galera">
+
+    </div>
+
     <div id="informativo1" style="border-bottom: 1px solid; border-color: black;">
         <img class="classe-img-bg" src="img/background-over-1.png"/>
         <div class="container-info">
@@ -31,5 +75,6 @@
         <img class="classe-img-bg" src="img/background-over-2.png"/>
     </div>
 
+    <script src="scripts/script.js"></script>
 </body>
 </html>
