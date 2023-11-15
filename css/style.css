@@ -2,6 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: Inter, Arial;
 }
 
 html, body{
@@ -182,12 +183,24 @@ plano de fundo auxiliares */
     height: 135%;
 }
 
-
-
 .infos_container{
     margin-right: 3%;
     width: 30%;
     font-size: 23px;
-    font-family: Inter, Arial;
+}
 
+.btn-saiba-mais{
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    color: #FFF;
+    background-color: #57284f;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.btn-saiba-mais:hover{
+    background-color: #360b2e;
 }
