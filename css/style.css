@@ -31,6 +31,7 @@ html, body{
 
 /* Carrosel bloco */
 
+/* Definindo tamanho da div do carrossel */
 .slider{
     margin: 0 auto;
     width: 100%;
@@ -38,27 +39,33 @@ html, body{
     overflow: hidden;
 }
 
+
+/* Definindo tamanho da div que irá segurar os slides e os botões para troca de slide */
 .slides{
     width: 400%;
     height: 500px;
     display: flex
 }
 
+/* Escondendo os inputs até estilização */
 .slides input{
     display: none;
 }
 
+/* Definindo o tamanho de cada slide (imagem). A troca das imagens foi feita baseando-se no tamanho total da largura do slider. Como existem 4 imagens, cada uma representa 1/4 de 100% */
 .slide{
     width: 25%;
     position: relative;
     transition: 1.5s;
 }
 
+/* Definindo tamanho de cada imagem */
 .slide img{
     width: 100%;
     height: 100%;
 }
 
+/* Radio buttons para troca de imagem manualmente */
 .manual-navigation{
     position: absolute;
     width: 100%;
@@ -67,6 +74,7 @@ html, body{
     justify-content: center;
 }
 
+/* Estilizando cada bottão */
 .manual-btn{
     border: 2px solid #FFF;
     padding: 5px;
@@ -75,6 +83,7 @@ html, body{
     transition: 1s;
 }
 
+/* Aplicando ada botão MENOS para o último */
 .manual-btn:not(:last-child){
     margin-right: 40px;
 }
@@ -83,6 +92,7 @@ html, body{
     background-color: #FFF;
 }
 
+/* Trocando de imagem */
 #radio1:checked ~ .first{
     margin-left: 0;
 }
@@ -98,7 +108,6 @@ html, body{
 #radio4:checked ~ .first{
     margin-left: -75%;
 }
-
 
 .navigation-auto{
     position: absolute;
