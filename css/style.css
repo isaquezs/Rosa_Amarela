@@ -137,7 +137,7 @@ html, body{
 plano de fundo auxiliares */
 
 .classe-img-bg{
-    width: 95%;
+    width: 100%;
     height: 90%;
     background-position: center;
     background-repeat: no-repeat;
@@ -170,7 +170,7 @@ plano de fundo auxiliares */
 .img_container{
     border-radius: 22px;
     width: 125%;
-    height: 130%;
+    height: 135%;
 }
 
 
@@ -179,6 +179,6 @@ plano de fundo auxiliares */
     margin-right: 3%;
     width: 30%;
     font-size: 23px;
-    font-family: Inter;
+    font-family: Inter, Arial;
 
 }
