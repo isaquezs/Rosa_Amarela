@@ -145,14 +145,14 @@ plano de fundo auxiliares */
 /* Regra geral para os blocos informativos */
 
 .informativos{
-    height: 500px;
+    height: 800px;
     background-color: #fef4ea;
 }
 
 /* Primeira div de bloco informativo  */
 
 #informativo1{
-    height: 500px;
+    height: 800px;
     background-color: #fef4ea;
 }
 
