@@ -141,7 +141,7 @@ html, body{
 
 /* Fim Carrossel bloco */
 
-/* Blocos informativos */
+/* ---------------- Blocos informativos ---------------- */
 
 /* Regra geral para imagens no 
 plano de fundo auxiliares */
@@ -159,16 +159,19 @@ plano de fundo auxiliares */
     background-color: #fef4ea;
 }
 
+/* Estrutura container para os blocos informativos */
 .container-info{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: space-evenly;
+    align-items: space-between;
     margin-top: -30%;
     width: 100%;
     height: 400px;
 }
+
+/* imagem alocada a direita da escrita nos containers */
 
 #img_container1{
     border-radius: 22px;
@@ -176,19 +179,32 @@ plano de fundo auxiliares */
     height: 135%;
 }
 
+/* imagem alocada a esquerda da escrita nos containers */
+
 #img_container2{
     border-radius: 22px;
     width: 110%;
     height: 140%;
 }
 
+/* estrutura para os conteudos escritos nos containers informativos */
 
-
-.infos_container{
-    margin-right: 3%;
+#infos_container1{
+    margin-right: 205px;
     width: 30%;
     font-size: 23px;
 }
+
+#infos_container2{
+    margin-right: 3%;
+    width: 35%;
+    font-size: 23px;
+}
+
+/* ---------------- Fim - Blocos informativos ---------------- */
+
+
+/* estrutura botao saiba mais */
 
 .btn-saiba-mais{
     width: 150px;
