@@ -158,13 +158,6 @@ plano de fundo auxiliares */
     background-color: #fef4ea;
 }
 
-/* Primeira div de bloco informativo  */
-
-#informativo1{
-    height: 800px;
-    background-color: #fef4ea;
-}
-
 .container-info{
     display: flex;
     flex-direction: row;
@@ -176,18 +169,21 @@ plano de fundo auxiliares */
     height: 400px;
 }
 
-.img_container{
+#img_container1{
     border-radius: 22px;
     width: 125%;
     height: 135%;
 }
 
+#img_container2{
+    border-radius: 22px;
+    width: 110%;
+    height: 135%;
+}
 
-
-.infos_container{
+#infos_container{
     margin-right: 3%;
     width: 30%;
     font-size: 23px;
     font-family: Inter, Arial;
-
 }
