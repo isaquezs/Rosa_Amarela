@@ -159,6 +159,21 @@ plano de fundo auxiliares */
     background-color: #fef4ea;
 }
 
+/* Regra para a parte da logo */
+
+.base_menu_infos{
+    height: 600px;
+    background-color: #fce7e2;
+}
+
+/* Regra para o rodapé */
+
+.rodape_infos{
+    height: 300px;
+    background-color: #f5dad3;
+}
+
+
 /* Estrutura container para os blocos informativos */
 .container-info{
     display: flex;
@@ -170,6 +185,18 @@ plano de fundo auxiliares */
     width: 100%;
     height: 400px;
 }
+
+.container_rosa{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: space-between;
+    margin-top: -30%;
+    width: 100%;
+    height: 400px;
+}
+
 
 /* imagem alocada a direita da escrita nos containers */
 
