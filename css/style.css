@@ -146,7 +146,7 @@ html, body{
 /* Regra geral para imagens no 
 plano de fundo auxiliares */
 
-.classe-img-bg{
+#id-img-bg{
     width: 100%;
     height: 90%;
     background-position: center;
@@ -160,6 +160,8 @@ plano de fundo auxiliares */
 }
 
 /* Regra para a parte da logo */
+
+
 
 .base_menu_infos{
     height: 600px;
@@ -186,15 +188,14 @@ plano de fundo auxiliares */
     height: 400px;
 }
 
-.container_rosa{
+#container_rosa{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: center;
-    align-items: space-between;
-    margin-top: -30%;
+    align-items: center;
     width: 100%;
-    height: 400px;
+    height: 100%;
 }
 
 
@@ -214,6 +215,14 @@ plano de fundo auxiliares */
     height: 130%;
 }
 
+/* imagem logo div */
+
+#img_logo{
+    width: 20%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
+
 /* estrutura para os conteudos escritos nos containers informativos */
 
 /* container 1 estrutura */
@@ -226,14 +235,21 @@ plano de fundo auxiliares */
 
 /* container 2 estrutura */
 
-
 #infos_container2{
     margin-right: 3%;
     width: 35%;
     font-size: 23px;
 }
 
+/* container com a logo  */
 
+#infos_container_clogo{
+    align-content: center;
+    width: fit-content;
+    font-size: 20px;
+    margin-bottom: 10%;
+    margin-left: 40px;
+}
 /* ---------------- Fim - Blocos informativos ---------------- */
 
 
@@ -257,5 +273,23 @@ plano de fundo auxiliares */
 }
 
 .btn-saiba-mais:hover{
+    background-color: #360b2e;
+}
+
+/* estrutura botao comprar */
+
+.btn-comprar{
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+    color: #FFF;
+    background-color: #57284f;
+    font-size: 16px;
+    border: 0;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.btn-comprar{
     background-color: #360b2e;
 }
