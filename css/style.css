@@ -29,18 +29,23 @@ html, body{
     float: left;
     color: black;
     text-align: center;
-    padding: 12px;
+    padding: 10px;
     text-decoration: none;
     font-size: 18px;
     line-height: 25px;
     border-radius: 4px;
   }
+
+.header a:last-child {
+    margin-right: 235px;
+}
   
   /* Style the logo link (notice that we set the same value of line-height and font-size to prevent the header to increase when the font gets bigger */
   .header img.logo-rosa-amarela {
     width: 50px;
     height: 50px;
     margin-top: -10px;
+    margin-left: 320px;
     font-weight: bold;
   }
   
