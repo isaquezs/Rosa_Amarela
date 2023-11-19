@@ -221,6 +221,8 @@ plano de fundo auxiliares */
 /* Regra para o rodapé */
 
 .rodape_infos{
+    display: flex;
+    justify-content: center;
     height: 300px;
     background-color: #f5dad3;
 }
@@ -273,6 +275,18 @@ plano de fundo auxiliares */
     margin-right: 5%;
 }
 
+#mini_img_logo{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 10px;
+  text-align: start;
+  align-items: center;
+  justify-content: center;
+  font-size: 20px;
+}
+
+
 /* estrutura para os conteudos escritos nos containers informativos */
 
 /* container 1 estrutura */
@@ -299,6 +313,17 @@ plano de fundo auxiliares */
     font-size: 20px;
     margin-bottom: 10%;
     margin-left: 40px;
+}
+
+#infos_rodape{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: 10px;
+    text-align: start;
+    font-size: 20px;
 }
 /* ---------------- Fim - Blocos informativos ---------------- */
 
