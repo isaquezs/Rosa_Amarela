@@ -181,6 +181,46 @@ html, body{
 
 /* Fim Carrossel bloco */
 
+@media (max-width: 400px){
+    img.id-img-bg{
+        height: 150px;
+    }
+
+    div.informativos {
+        height: 200px;
+    }
+
+    div.info1_style{
+        height: 150px;
+    }
+
+    img#img_container1{
+        margin-right: 20px;
+        height: 160px;
+    }
+
+    .informativos  #infos_container1{
+        margin-right: 2px;
+        width: 50%;
+        font-size: 10px;
+    }
+
+    .informativos .container-info{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: space-between;
+        margin-top: -50%;
+        width: 100%;
+        height: 100px;
+    }
+
+
+}
+
+
+
 /* ---------------- Blocos informativos ---------------- */
 
 /* Regra geral para imagens no 
@@ -219,6 +259,13 @@ plano de fundo auxiliares */
 
 
 /* Estrutura container para os blocos informativos */
+
+.info1_style{
+    height: 550px;
+    background-color: #fef4ea;
+}
+
+
 .container-info{
     display: flex;
     flex-direction: row;
