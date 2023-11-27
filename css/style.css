@@ -232,9 +232,9 @@ body {
     }
 
     .informativos  #infos_container1{
-        margin-right: 2px;
+        margin-right: 10px;
         width: 50%;
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .informativos .container-info{
