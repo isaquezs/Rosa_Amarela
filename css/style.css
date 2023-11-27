@@ -13,7 +13,7 @@ html{
 }
 
 body {
-    overflow-x: hidden;
+    overflow-x: hidden; 
 }
 /* Header elementos */
 
@@ -75,9 +75,9 @@ body {
   }
   
   /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-  @media screen and (max-width: 650px) {
+  @media screen and (max-width: 655px) {    
     .header a.logo {
-        margin-right: 80px;
+        margin-right: 70px;
     }
 
     .header a {
@@ -102,7 +102,7 @@ body {
 
   @media screen and (max-width: 430px) {
     .header a.logo {
-        margin-right: 35px;
+        margin-right: 50px;
     } 
     
     .header a {
