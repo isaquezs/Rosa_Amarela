@@ -133,34 +133,6 @@ html, body{
     height: 100%;
 }
 
-/* Radio buttons para troca de imagem manualmente */
-.manual-navigation{
-    position: absolute;
-    width: 100%;
-    margin-top: -40px;
-    display: flex;
-    justify-content: center;
-    margin-top: -120px;
-}
-
-/* Estilizando cada bottão */
-.manual-btn{
-    border: 2px solid #FFF;
-    padding: 5px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 1s;
-}
-
-/* Aplicando ada botão MENOS para o último */
-.manual-btn:not(:last-child){
-    margin-right: 40px;
-}
-
-.manual-btn:hover{
-    background-color: #FFF;
-}
-
 /* Trocando de imagem */
 #radio1:checked ~ .first{
     margin-left: 0;
