@@ -235,9 +235,10 @@ body {
     }
 
     .informativos .btn-saiba-mais {
+        margin-top: -10px;
         width: 100px;
         height: 30px;
-        font-size: 12.5px;
+        font-size: 11.5px;
     }
 
     .informativos  #infos_container1{
@@ -252,13 +253,14 @@ body {
         flex-wrap: nowrap;
         justify-content: center;
         align-items: space-between;
-        margin-top: -55%;
+        margin-top: -60%;
         width: 100%;
         height: 100px;
     }
 
     /* fim das regras da primeira div */
 
+    /* regras para segunda div  */
 
     .informativos img#img_container2{
         margin-top: 45px;
@@ -287,9 +289,63 @@ body {
 
     div#estilo_container3 {
         background-color: #fce7e2; 
-        height: 1px;
+        height: 100px;
     }
 
+    /* fim das regras para segunda div */
+
+    /* regras para terceira div */
+
+    div#infos_container_clogo{
+        align-content: center;
+        width: 40%;
+        font-size: 10px;
+        margin-bottom: 10%;
+        margin-left: 40px;
+    }
+
+    img#img_logo{
+        width: 35%;
+        margin-left: 10%;
+        margin-right: 0%;
+    }
+
+    div.base_menu_infos{
+        height: 250px;
+    }
+
+    .base_menu_infos .btn-comprar {
+        width: 100px;
+        height: 30px;
+        font-size: 11.5px;
+    }
+
+    /* fim regras terceira div */
+
+    img#icone_rodape_logo{
+        width: 35px;
+        margin: 10px;
+        margin-bottom: 10px;
+        margin-right: 100px;
+    }
+
+    div#fontes_direitos{
+        font-size: 8px;
+    }
+
+    div.rodape_infos{
+        height: 200px;
+    }
+
+    .rodape_infos #elementos_fontes_direitos{
+        margin: 0px;
+        margin-right: 50px;
+    }
+
+    .rodape_infos #elementos_auxiliares_rodape{
+        margin: 5px;
+        font-size: 8px;
+    }
 }
 
 
@@ -451,6 +507,25 @@ plano de fundo auxiliares */
     text-align: start;
     font-size: 15px;
 }
+
+#icone_rodape_logo{
+    width: 50px; 
+    margin: 10px; 
+    margin-right: 230px;
+}
+
+#fontes_direitos{
+    width: fit-content;
+}
+
+#elementos_fontes_direitos{
+    margin: 15px;
+}
+
+#elementos_auxiliares_rodape{
+    margin: 10px;
+}
+
 /* ---------------- Fim - Blocos informativos ---------------- */
 
 
