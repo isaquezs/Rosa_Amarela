@@ -259,6 +259,37 @@ body {
 
     /* fim das regras da primeira div */
 
+
+    .informativos img#img_container2{
+        margin-top: 45px;
+        width: 100%;
+        margin-right: 20px;
+        height: 160px;
+    }
+
+    .informativos #infos_container2 {
+        margin-top: 60px;
+        margin-right: 10px;
+        width: 50%;
+        font-size: 12px;
+    }
+
+    #estilo_container1 {
+        background-color: #fef4ea; 
+        height: 100px;
+    }
+
+    div#estilo_container2 {
+        background-color: #fef4ea; 
+        height: 100px;
+    }
+
+
+    div#estilo_container3 {
+        background-color: #fce7e2; 
+        height: 1px;
+    }
+
 }
 
 
@@ -306,6 +337,22 @@ plano de fundo auxiliares */
     height: 550px;
     background-color: #fef4ea;
 }
+
+#estilo_container1 {
+    background-color: #fef4ea; 
+    height: 150px;
+}
+
+#estilo_container2 {
+    background-color: #fef4ea; 
+    height: 200px;
+}
+
+#estilo_container3 {
+    background-color: #fce7e2; 
+    height: 100px;
+}
+
 
 
 .container-info{
