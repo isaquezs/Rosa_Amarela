@@ -211,7 +211,7 @@ body {
     }
 
     .header a.logo {
-        margin-right: 230px;
+        margin-right: 370px;
     }
 
     .header a {
@@ -219,31 +219,109 @@ body {
     }
 }
 
+@media screen and (max-width: 608px) {
+    .header a.logo {
+        margin-right: 350px;
+    }
+}
+
+@media screen and (max-width: 588px) {
+    .header a.logo {
+        margin-right: 330px;
+    }
+}
+
+@media screen and (max-width: 568px) {
+    .header a.logo {
+        margin-right: 310px;
+    }
+}
+
+@media screen and (max-width: 548px) {
+    .header a.logo {
+        margin-right: 290px;
+    }
+}
+
+@media screen and (max-width: 528px) {
+    .header a.logo {
+        margin-right: 270px;
+    }
+}
+
+@media screen and (max-width: 508px) {
+    .header a.logo {
+        margin-right: 250px;
+    }
+}
+
+@media screen and (max-width: 488px) {
+    .header a.logo {
+        margin-right: 230px;
+    }
+}
+
 @media screen and (max-width: 468px) {
+    .header a.logo {
+        margin-right: 210px;
+    }
+}
+
+@media screen and (max-width: 448px) {
+    .header a.logo {
+        margin-right: 190px;
+    }
+}
+
+@media screen and (max-width: 428px) {
     .header a.logo {
         margin-right: 170px;
     }
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 408px) {
     .header a.logo {
-        margin-right: 100px;
+        margin-right: 150px;
     }
 }
 
-@media screen and (max-width: 338px) {
+@media screen and (max-width: 388px) {
     .header a.logo {
-        margin-right: 60px;
+        margin-right: 130px;
     }
 }
 
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 368px) {
+    .header a.logo {
+        margin-right: 110px;
+    }
+}
+
+@media screen and (max-width: 348px) {
+    .header a.logo {
+        margin-right: 90px;
+    }
+}
+
+@media screen and (max-width: 328px) {
+    .header a.logo {
+        margin-right: 70px;
+    }
+}
+
+@media screen and (max-width: 308px) {
+    .header a.logo {
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 288px) {
     .header a.logo {
         margin-right: 30px;
     }
 }
 
-@media screen and (max-width: 270px) {
+@media screen and (max-width: 268px) {
     .header a.logo {
         margin-right: 10px;
     }
