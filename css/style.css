@@ -899,6 +899,150 @@ and (min-width: 601px){
     }
 }
 
+    /* Responsivdade 1280px */
+
+@media (max-width: 1280px)
+and (min-width: 769px){
+    img.id-img-bg{
+        height: 450px;
+    }
+
+    /* regras para primeira div */
+
+    div.informativos {
+        height: 400px;
+    }
+
+    div.info1_style{
+        height: 450px;
+    }
+
+    img#img_container1{
+        width: 100%;
+        margin-right: 100px;
+        height: 420px;
+    }
+
+    .informativos .btn-saiba-mais {
+        margin-top: -10px;
+        width: 120px;
+        height: 40px;
+        font-size: 13px;
+    }
+
+    .informativos  #infos_container1{
+        margin-right: 100px;
+        width: 35%;
+        font-size: 18px;
+    }
+
+    .informativos .container-info{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: space-between;
+        margin-top: -40%;
+        width: 100%;
+        height: 100px;
+    }
+
+    /* fim das regras da primeira div */
+
+    /* regras para segunda div  */
+
+    .informativos img#img_container2{
+        margin-top: 60px;
+        width: 100%;
+        margin-right: 20px;
+        height: 420px;
+    }
+
+    .informativos #infos_container2 {
+        margin-top: 150px;
+        margin-right: 20px;
+        padding-left: 30px;
+        padding-right: 50px;
+        width: 45%;
+        font-size: 18px;
+    }
+
+    div#estilo_container1 {
+        background-color: #fef4ea; 
+        height: 300px;
+    }
+
+    div#estilo_container2 {
+        background-color: #fef4ea; 
+        height: 300px;
+    }
+
+
+    div#estilo_container3 {
+        background-color: #fce7e2; 
+        height: 150px;
+    }
+
+    /* fim das regras para segunda div */
+
+    /* regras para terceira div */
+
+    div#infos_container_clogo{
+        align-content: center;
+        width: 30%;
+        padding-right: 0px;
+        font-size: 18px;
+        margin-top: 90px;
+        margin-bottom: 10%;
+        margin-left: 40px;
+    }
+
+    img#img_logo{
+        width: 25%;
+        margin-left: 30px;
+        margin-right: 50px;
+    }
+
+    div.base_menu_infos{
+        height: 250px;
+    }
+
+    .base_menu_infos .btn-comprar {
+        width: 120px;
+        height: 40px;
+        font-size: 13px;
+    }
+
+    /* fim regras terceira div */
+
+    img#icone_rodape_logo{
+        width: 35px;
+        margin: 10px;
+        margin-bottom: 10px;
+        margin-right: 540px;
+    }
+
+    div#fontes_direitos{
+        font-size: 13px;
+    }
+
+    div.rodape_infos{
+        height: 200px;
+    }
+
+    .rodape_infos #elementos_fontes_direitos{
+        margin: 0px;
+        margin-right: 430px;
+    }
+
+    .rodape_infos #elementos_auxiliares_rodape{
+        margin: 5px;
+        margin-left: 300px;
+        font-size: 13px;
+    }
+}
+
+
 
 /* ---------------- Blocos informativos ---------------- */
 
