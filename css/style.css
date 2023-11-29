@@ -68,6 +68,7 @@ body {
     color: black;
     transition: 0.3s;
     border-radius: 15px;
+    height: 25px;
   }
   /* Float the link section to the right */
   .header-right {
@@ -92,7 +93,7 @@ body {
 .slider{
     margin: 0 auto;
     width: 100%;
-    height: 500px;
+    height: 800px;
     overflow: hidden;
     padding-top: 80px;
 }
@@ -100,7 +101,7 @@ body {
 /* Definindo tamanho da div que irá segurar os slides e os botões para troca de slide */
 .slides{
     width: 400%;
-    height: 500px;
+    height: 800px;
     display: flex
 }
 
