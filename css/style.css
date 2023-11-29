@@ -97,7 +97,6 @@ body {
     padding-top: 80px;
 }
 
-
 /* Definindo tamanho da div que irá segurar os slides e os botões para troca de slide */
 .slides{
     width: 400%;
@@ -266,6 +265,10 @@ body {
 }
 
 @media screen and (max-width: 768px) {
+    .slider{
+        height: 400px;
+    }
+
     .header a.logo {
         margin-right: 340px;
     }
