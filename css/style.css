@@ -685,7 +685,7 @@ and (min-width: 401px){
 @media (max-width: 768px)
 and (min-width: 601px){
     img.id-img-bg{
-        height: 200px;
+        height: 300px;
     }
 
     /* regras para primeira div */
@@ -700,21 +700,21 @@ and (min-width: 601px){
 
     img#img_container1{
         width: 100%;
-        margin-right: 50px;
-        height: 260px;
+        margin-right: 60px;
+        height: 320px;
     }
 
     .informativos .btn-saiba-mais {
         margin-top: -10px;
-        width: 100px;
-        height: 30px;
-        font-size: 11.5px;
+        width: 120px;
+        height: 40px;
+        font-size: 13px;
     }
 
     .informativos  #infos_container1{
-        margin-right: 10px;
+        margin-right: 20px;
         width: 50%;
-        font-size: 12px;
+        font-size: 15px;
     }
 
     .informativos .container-info{
@@ -736,21 +736,21 @@ and (min-width: 601px){
         margin-top: 60px;
         width: 100%;
         margin-right: 20px;
-        height: 250px;
+        height: 300px;
     }
 
     .informativos #infos_container2 {
         margin-top: 100px;
-        margin-right: 10px;
+        margin-right: 20px;
         padding-left: 30px;
         padding-right: 50px;
         width: 50%;
-        font-size: 13px;
+        font-size: 17px;
     }
 
     div#estilo_container1 {
         background-color: #fef4ea; 
-        height: 250px;
+        height: 400px;
     }
 
     div#estilo_container2 {
@@ -788,9 +788,9 @@ and (min-width: 601px){
     }
 
     .base_menu_infos .btn-comprar {
-        width: 100px;
-        height: 30px;
-        font-size: 11.5px;
+        width: 120px;
+        height: 40px;
+        font-size: 13px;
     }
 
     /* fim regras terceira div */
@@ -799,7 +799,7 @@ and (min-width: 601px){
         width: 35px;
         margin: 10px;
         margin-bottom: 10px;
-        margin-right: 210px;
+        margin-right: 290px;
     }
 
     div#fontes_direitos{
@@ -812,7 +812,7 @@ and (min-width: 601px){
 
     .rodape_infos #elementos_fontes_direitos{
         margin: 0px;
-        margin-right: 140px;
+        margin-right: 200px;
     }
 
     .rodape_infos #elementos_auxiliares_rodape{
