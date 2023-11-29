@@ -73,28 +73,6 @@ body {
   .header-right {
     float: right;
   }
-  
-  /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
-  @media screen and (max-width: 768px) {    
-    .header a {
-      display: inline-block;
-      text-align: left;
-      font-size: 14px;
-    }
-
-    .header-right {
-        white-space: nowrap;
-    }
-
-    .header-right a {
-        display: inline-block;
-        margin-right: -4px;
-    }
-
-    .header-right {
-      float: none;
-    }   
-}
 
 .espaco-elementos-header{
     padding-left: 50px;
@@ -197,10 +175,104 @@ body {
 
 /* Responsividade Header */
 
+@media screen and (max-width: 1600px) {
+    .header a.logo {
+        margin-right: 1100px;
+    }
+
+    .header a {
+        display: inline-block;
+        text-align: left;
+      }
+  
+      .header-right {
+          white-space: nowrap;
+      }
+  
+      .header-right a {
+          display: inline-block;
+          margin-right: -4px;
+      }
+  
+      .header-right {
+        float: none;
+      }   
+}
+
+@media screen and (max-width: 1515px) {
+    .header a.logo {
+        margin-right: 1050px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .header a.logo {
+        margin-right: 1000px;
+    }
+}
+
+@media screen and (max-width: 1385px) {
+    .header a.logo {
+        margin-right: 950px;
+    }
+}
+
+@media screen and (max-width: 1330px) {
+    .header a.logo {
+        margin-right: 900px;
+    }
+}
+
+@media screen and (max-width: 1270px) {
+    .header a.logo {
+        margin-right: 850px;
+    }
+}
+
+@media screen and (max-width: 1205px) {
+    .header a.logo {
+        margin-right: 800px;
+    }
+}
+
+@media screen and (max-width: 1155px) {
+    .header a.logo {
+        margin-right: 730px;
+    }
+}
+
+@media screen and (max-width: 1080px) {
+    .header a.logo {
+        margin-right: 630px;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .header a.logo {
+        margin-right: 510px;
+    }
+}
+
+@media screen and (max-width: 865px) {
+    .header a.logo {
+        margin-right: 460px;
+    }
+}
+
+@media screen and (max-width: 815px) {
+    .header a.logo {
+        margin-right: 390px;
+    }
+}
+
 @media screen and (max-width: 768px) {
     .header a.logo {
         margin-right: 340px;
     }
+
+    .header a {
+        font-size: 14px;
+      }
 }
 
 @media screen and (max-width: 620px) {
