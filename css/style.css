@@ -120,7 +120,6 @@ body {
 /* Definindo tamanho de cada imagem */
 .slide img{
     width: 100%;
-    height: 100%;
 }
 
 /* Trocando de imagem */
@@ -270,6 +269,8 @@ body {
         height: 400px;
     }
 
+
+
     .header a.logo {
         margin-right: 340px;
     }
@@ -358,6 +359,10 @@ body {
 @media screen and (max-width: 408px) {
     .header a.logo {
         margin-right: 150px;
+    }
+
+    .slider{
+        height: 230px;
     }
 }
 
