@@ -372,6 +372,10 @@ body {
         margin-right: 150px;
     }
 
+    .slider{
+        height: 230px;
+    }
+
 }
 
 @media screen and (max-width: 388px) {
