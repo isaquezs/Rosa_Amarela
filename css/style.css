@@ -1042,10 +1042,158 @@ and (min-width: 361px){
     }
 }
 
+@media (max-width: 500px)
+and (min-width: 401px){
+    img.id-img-bg{
+        height: 150px;
+    }
+
+    /* regras para primeira div */
+
+    div.informativos {
+        height: 200px;
+    }
+
+    div.info1_style{
+        height: 150px;
+    }
+
+    img#img_container1{
+        width: 100%;
+        margin-right: 50px;
+        height: 160px;
+    }
+
+    .informativos .btn-saiba-mais {
+        margin-top: -10px;
+        width: 100px;
+        height: 30px;
+        font-size: 11.5px;
+    }
+
+    .informativos  #infos_container1{
+        margin-right: 10px;
+        width: 50%;
+        font-size: 12px;
+    }
+
+    .informativos .container-info{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -ms-flex-wrap: nowrap;
+            flex-wrap: nowrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: space-between;
+            -ms-flex-align: space-between;
+                align-items: space-between;
+        margin-top: -60%;
+        width: 100%;
+        height: 100px;
+    }
+
+    /* fim das regras da primeira div */
+
+    /* regras para segunda div  */
+
+    .informativos img#img_container2{
+        margin-top: 45px;
+        width: 100%;
+        margin-right: 20px;
+        height: 160px;
+    }
+
+    .informativos #infos_container2 {
+        margin-top: 60px;
+        margin-right: 10px;
+        width: 50%;
+        font-size: 12px;
+    }
+
+    #estilo_container1 {
+        background-color: #fef4ea; 
+        height: 100px;
+    }
+
+    div#estilo_container2 {
+        background-color: #fef4ea; 
+        height: 100px;
+    }
+
+
+    div#estilo_container3 {
+        background-color: #fce7e2; 
+        height: 100px;
+    }
+
+    /* fim das regras para segunda div */
+
+    /* regras para terceira div */
+
+    div#infos_container_clogo{
+        -ms-flex-line-pack: center;
+            align-content: center;
+        width: 40%;
+        padding-right: 0px;
+        font-size: 10px;
+        margin-bottom: 10%;
+        margin-left: 40px;
+    }
+
+    img#img_logo{
+        width: 35%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    div.base_menu_infos{
+        height: 250px;
+    }
+
+    .base_menu_infos .btn-comprar {
+        width: 100px;
+        height: 30px;
+        font-size: 11.5px;
+    }
+
+    /* fim regras terceira div */
+
+    img#icone_rodape_logo{
+        width: 35px;
+        margin: 10px;
+        margin-bottom: 10px;
+        margin-right: 100px;
+    }
+
+    div#fontes_direitos{
+        font-size: 8px;
+    }
+
+    div.rodape_infos{
+        height: 200px;
+    }
+
+    .rodape_infos #elementos_fontes_direitos{
+        margin: 0px;
+        margin-right: 50px;
+    }
+
+    .rodape_infos #elementos_auxiliares_rodape{
+        margin: 5px;
+        font-size: 8px;
+    }
+}
+
 /* Responsividade 600px */
 
 @media (max-width: 600px)
-and (min-width: 401px){
+and (min-width: 501px){
     img.id-img-bg{
         height: 200px;
     }
