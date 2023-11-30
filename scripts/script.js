@@ -5,7 +5,7 @@ document.getElementById("radio1").checked = true;
 //! Tempo de transição entre as imagens
 setInterval(() => {
   nextImage();
-}, 4000);
+}, 7000);
 
 function nextImage() { 
   count++;
