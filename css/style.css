@@ -736,7 +736,7 @@ body {
 /* Responsividade 400px */
 
 @media (max-width: 400px)
-and (min-width: 360px){
+and (min-width: 321px){
     img.id-img-bg{
         height: 150px;
     }
